@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 0 15%;
+    background-color: black;
+}
+
+.sidebar {
+    background-color: aqua;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.main-content {
+    background-color: rgb(226, 71, 71);
+    height: 100vh;
+    flex-grow: 3;
+}
+
+p {
+    text-align: center;
+}
