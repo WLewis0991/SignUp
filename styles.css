@@ -3,17 +3,19 @@ body{
     flex-direction: row;
     margin: auto;
     padding: 0 8%;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
 }
 
 .sidebar {
-    background-color: aqua;
+    background-image: url("spacePaper.png");
+    background-attachment: fixed;
     height: 100vh;
     flex-grow: 1;
+    color: white;
 }
 
 .main-content {
-    background-color: rgb(226, 71, 71);
+    background-color: whitesmoke;
     height: 100vh;
     flex-grow: 3;
 }
