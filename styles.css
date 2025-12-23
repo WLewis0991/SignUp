@@ -15,7 +15,7 @@ body{
 .sidebar {
     background-image: url("spacePaper.png");
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
     flex-grow: 1;
     color: white;
     min-width: 30%;
@@ -37,7 +37,7 @@ img {
 
 .main-content {
     background-color: whitesmoke;
-    height: 100vh;
+    min-height: 100vh;
     flex-grow: 3;
     display: flex;
     flex-direction: column;
@@ -62,8 +62,6 @@ p {
     padding: 20px ;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    align-items: center;
-    justify-content: center;
 }
 
 form {
